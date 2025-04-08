@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css"; // Import the CSS file for styling
+import aboutImage from '../assets/about-image.png';
 
 const Home = () => {
   return (
@@ -40,7 +41,7 @@ const Home = () => {
          </div>
 
          <div className="about-image-container">
-           <img src="../src/assets/about-image.png" alt="about-img" className="about-image"/>
+           <img src={aboutImage} alt="About" className="about-image" />
          </div>
 
          <div className="ratings-container">
