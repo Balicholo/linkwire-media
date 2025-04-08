@@ -1,6 +1,8 @@
 import React from "react";
 import "../App.css"; // Import the CSS file for styling
 import aboutImage from '../assets/about-image.png';
+import greenImage from '../assets/green-image.png';
+import ServiceCarousel from "../components/ServiceCarousel";
 
 const Home = () => {
   return (
@@ -61,6 +63,66 @@ const Home = () => {
           </div>
 
          </div>
+       </div>
+
+         <div className="about-text2">
+           <p className="small-text">With AI-powered intelligence</p>
+            <h1 className="main-heading">We Shape Events</h1>
+            <div className="decorative-line2"></div>
+            <p className="description-text2">
+             Linkwire is your frontline defense. We are a strategic intelligence, crisis 
+             management, and media innovation firm helping governments, businesses, 
+             law enforcement, and organizations navigate uncertainty, protect reputations, 
+             and influence public perception.
+            </p>
+            <a href="#" className="read-more-button">
+              <button>Read More</button>
+            </a>
+         </div>
+      </div>
+    </section>
+
+    <section id="green-section">
+      <div className="green-container">
+        <div className="green-wrapper">
+          <div className="green-image-container">
+           <img src={greenImage} alt="About" className="green-image" />
+          </div>
+
+          <div className="green-text-container">
+            <p>
+              From crisis management to geopolitical risk analysis, from narrative control to 
+              digital investigations, we equip our clients with the tools to anticipate threats, 
+              counter misinformation, and drive meaningful change.
+            </p>
+            <p>
+              <i class="ri-ball-pen-line"></i> We don t just respond to crises we prevent them.
+            </p>
+            <p>
+              <i class="ri-ball-pen-line"></i> We don t just analyze risks we neutralize them.
+            </p>
+
+            <p>
+              <i class="ri-ball-pen-line"></i> We don t just follow narratives we shape them.
+            </p>
+            <p>
+              In a world where information is power, Linkwire puts you in control.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services-section">
+      <div className="services-container">
+       <div className="services-wrapper">
+        <div className="services-heading">
+            <p className="small-text">With AI-powered intelligence</p>
+            <h1 className="main-heading">We Shape Events</h1>
+            <div className="decorative-line2"></div>
+        </div>
+
+        <ServiceCarousel />
        </div>
       </div>
     </section>

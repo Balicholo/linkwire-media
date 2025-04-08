@@ -4,9 +4,12 @@ body{
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: rgb(206, 135, 135);
+  /* background-color: rgb(206, 135, 135); */
   font-family: "League Spartan", sans-serif;
 }
 *{
   box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
 }

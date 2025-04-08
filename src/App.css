@@ -170,7 +170,6 @@ nav{
   background-position: center;
   background-size: cover;
   position: relative;
-  margin-top: -20px;
 }
 .filter{
   width: 100%;
@@ -320,4 +319,188 @@ nav{
 .ratings-container{
   width: 400px;
   /* background-color: rgb(149, 149, 149); */
+}
+.about-text2{
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 40px;
+  @media (max-width:789px) {
+    width: 80%;
+  }
+}
+.description-text2{
+  text-align: center;
+  color: rgb(58, 58, 58);
+}
+.decorative-line2{
+  width: 100px;
+  height: 1.5px;
+  background-color: rgb(0, 77, 0);
+  margin-top: 10px;
+}
+
+/* GREEN SECTION WITH HOLDING HANDS IMAGE */
+#green-section{
+  width: 100%;
+  background-color: rgba(0, 77, 0, 0.967);
+  float: left;
+}
+
+.green-image-container{
+  width: 100%;
+  max-width: 500px;
+  overflow: hidden;
+}
+.green-image{
+  width: 100%;
+  height: auto;
+  display: block; /* removes unwanted spacing under the image */
+  object-fit: cover;
+}
+.green-wrapper{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  @media (max-width: 982px) {
+    flex-wrap: wrap;
+  }
+}
+.green-container{
+  width: 100%;
+  height: 100%;
+  padding: 30px 0;
+}
+.green-text-container p, i{
+  color: white;
+}
+
+/* SERVICES SECTION */
+#services-section{
+  width: 100%;
+  background-color: white;
+  /* float: left; */
+}
+.services-heading{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+.service-card{
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  background-color: rgb(177, 177, 177);
+  backdrop-filter: blur(24px);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+.card-heading{
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  /* margin-bottom: 30px; */
+}
+.card-text{
+  color: rgb(255, 255, 255);
+}
+.cards-carousel{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.swiper-container {
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 20px 0 50px 0;
+  overflow: hidden;
+}
+
+.swiper-container .swiper-slide {
+  transition: all 0.3s ease;
+  opacity: 0.7;
+  transform: scale(0.8);
+}
+
+.swiper-container .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.swiper-slide-active .service-card {
+  background-color: rgb(0, 77, 0);
+}
+
+
+.swiper-slide-active .card-heading {
+  color: rgb(255, 255, 255);
+}
+
+.swiper-slide-active .card-text {
+  color: rgb(255, 255, 255);
+}
+
+.swiper-container .swiper-pagination-bullet {
+  background-color: rgb(173, 173, 173); /* Adjust color */
+  opacity: 0.5;
+}
+
+.swiper-container .swiper-pagination-bullet-active {
+  background-color: rgb(0, 193, 58); /* Active bullet color */
+  opacity: 1;
+}
+.swiper-container .swiper-button-prev,
+.swiper-container .swiper-button-next {
+  color: white;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 110, 33, 0.8);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 45%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+/* Positioning */
+.swiper-container .swiper-button-prev {
+  left: 30px;
+}
+.swiper-container .swiper-button-next {
+  right: 30px;
+}
+
+/* Optional: Add hover effect */
+.swiper-container .swiper-button-prev:hover,
+.swiper-container .swiper-button-next:hover {
+  background-color: rgb(149, 149, 149);
+  /* transform: scale(1.1);
+  transition: 0.3s ease; */
+}
+
+/* Optional: Replace default arrow icons */
+.swiper-container .swiper-button-prev::after,
+.swiper-container .swiper-button-next::after {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
