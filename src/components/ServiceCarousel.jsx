@@ -9,24 +9,24 @@ import "../App.css"; // Your custom styles
 
 const services = [
   {
-    heading: "Bank Services",
-    text: "Cash Deposits, Cash Withdrawals, School Fees Deposits / Payments, Tertiary institution fees payments, Prepaid Electricity tokens sales, Bill & DSTV Subscriptions, Transfer to a Third-party CBZ a/c",
+    heading: "Crisis Management & Strategic Communications",
+    text: "Anticipate. Respond. Rebuild.",
   },
   {
-    heading: "EcoCash Services",
-    text: "*153*3*1*032477*AMNT# (Cash Out), Cash In, New Lines, Sim Replacement, Airtime Wholesale, Econet Services",
+    heading: "Media Intelligence & Narrative Analysis",
+    text: "Control the Story. Shape the Conversation",
   },
   {
-    heading: "Additional services:",
-    text: "Nyaradzo, Doves, DSTV, ZOL, Starlink",
+    heading: "Threatcasting & Strategic Foresight",
+    text: "See Beyond the Horizon. Prepare for the Future.",
   },
   {
-    heading: "Additional services:",
-    text: "Nyaradzo, Doves, DSTV, ZOL, Starlink",
+    heading: "Intelligence & Policy Advisory",
+    text: "Turn Data into Actionable Policy.",
   },
   {
-    heading: "Additional services:",
-    text: "Nyaradzo, Doves, DSTV, ZOL, Starlink",
+    heading: "Digital Investigations & Cyber Threat Intelligence",
+    text: "Uncover Hidden Threats. Secure Your Digital Operations.",
   },
 ];
 
@@ -57,7 +57,7 @@ const ServiceCarousel = () => {
         }}
         breakpoints={{
           640: {
-            slidesPerView: 3,
+            slidesPerView: 2,
           },
           1024: {
             slidesPerView: 3,
@@ -67,10 +67,10 @@ const ServiceCarousel = () => {
         {services.map((service, index) => (
           <SwiperSlide key={index}>
             <div className="service-card">
-              {/* <p className="card-num">{service.num}</p> */}
-              {/* <p className="card-heading">{service.heading}</p> */}
-              {/* <p className="card-text">{service.text}</p> */}
-              {/* <a href="#">Read More</a> */}
+              <p className="card-num">{service.num}</p>
+              <p className="card-heading">{service.heading}</p>
+              <p className="card-text">{service.text}</p>
+              <a href="/services" className="readmore-link">Read More <i class="ri-arrow-right-circle-line"></i></a>
             </div>
           </SwiperSlide>
         ))}

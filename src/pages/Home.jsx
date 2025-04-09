@@ -3,6 +3,7 @@ import "../App.css"; // Import the CSS file for styling
 import aboutImage from '../assets/about-image.png';
 import greenImage from '../assets/green-image.png';
 import ServiceCarousel from "../components/ServiceCarousel";
+import DropdownAccordion from '../components/DropdownAccordion';
 
 const Home = () => {
   return (
@@ -54,7 +55,7 @@ const Home = () => {
 
           <div className="rates">
            <h1>100+</h1>
-           <p>Projects Completed</p>            
+           <p>Happy Clients</p>            
           </div>
 
           <div className="rates">
@@ -117,12 +118,104 @@ const Home = () => {
       <div className="services-container">
        <div className="services-wrapper">
         <div className="services-heading">
-            <p className="small-text">With AI-powered intelligence</p>
-            <h1 className="main-heading">We Shape Events</h1>
+            <p className="small-text">Our Services</p>
+            <h1 className="main-heading">What We Offer</h1>
             <div className="decorative-line2"></div>
         </div>
 
         <ServiceCarousel />
+       </div>
+      </div>
+    </section>
+    <section id="industries-served-section">
+      <div className="industries-served-container">
+        <div className="industries-served-wrapper">
+          <div className="industries-served-heading">
+              <p className="small-text">Industries We Serve</p>
+              <h1 className="main-heading">We Serve</h1>
+              <div className="decorative-line2"></div>
+          </div>
+          <DropdownAccordion />
+        </div>
+      </div>
+    </section>
+
+    <section id="workshops-section">
+     <div className="workshops-container">
+      <div className="workshops-wrapper">
+         <div className="services-heading workshops-heading">
+            <p className="small-text">Explore our workshops</p>
+            <h1 className="main-heading">Workshops We Offer</h1>
+            <div className="decorative-line2"></div>
+        </div>
+
+        <div className="workshops-text-container">
+          <div className="row">
+            <div className="workshop-card">
+              <p className="workshop-heading">OSINT & Digital Surveillance Training</p>
+              <p className="workshop-subheading">Learn open source intelligence techniques</p>
+            </div>
+
+            <div className="workshop-card">
+              <p className="workshop-heading">Crisis Management & Media Training</p>
+              <p className="workshop-subheading">Prepare for high pressure media engagements</p>
+            </div>
+
+            <div className="workshop-card">
+              <p className="workshop-heading">Threatcasting & Strategic Risk Workshops</p>
+              <p className="workshop-subheading">Anticipate and prepare for future risks</p>
+            </div>
+
+            <div className="workshop-card">
+              <p className="workshop-heading">Disinformation & influence Operations</p>
+              <p className="workshop-subheading">Identify and counteract digital influence campaigns</p>
+            </div>
+
+            <div className="workshop-card">
+              <p className="workshop-heading">Cybersecurity Awareness & threat intelligence</p>
+              <p className="workshop-subheading">Stay ahead of digital security threats</p>
+            </div>
+
+            <div className="workshop-card">
+              <p className="workshop-heading">Media Literacy & Fact checking</p>
+              <p className="workshop-subheading">Equip journalists to detect and counter misinformation</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     </div>
+    </section>
+
+    <section id="why-choose-us-section">
+      <div className="why-choose-us-container">
+       <div className="why-choose-us-wrapper">
+         <p className="small-text">Why Choose Our Services</p>
+         <h1 className="main-heading">Why Linkwire</h1>
+         <div className="decorative-line2"></div>
+
+         <div className="why-choose-us-card-container">
+          <div className="why-choose-us-card card-1">
+            <div className="why-choose-us-card-filter">
+             <p className="why-choose-us-card-heading">Africa-Centric Approach</p>
+             <p className="why-choose-us-card-subheading">We understand the unique challenges facing African institutions.</p>
+            </div>
+          </div>
+
+          <div className="why-choose-us-card card-2">
+            <div className="why-choose-us-card-filter">
+             <p className="why-choose-us-card-heading">Data-Driven Intelligence</p>
+             <p className="why-choose-us-card-subheading">Our insights are backed by real-time analytics and AI- driven monitoring.</p>
+            </div>
+          </div>
+
+          <div className="why-choose-us-card card-3">
+            <div className="why-choose-us-card-filter">
+             <p className="why-choose-us-card-heading">Rapid Response & Actionable Strategy</p>
+             <p className="why-choose-us-card-subheading">Our insights are backed by real-time analytics and AI- driven monitoring.</p>
+            </div>
+          </div>
+         </div>
        </div>
       </div>
     </section>
