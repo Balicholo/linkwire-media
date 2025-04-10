@@ -18,7 +18,7 @@ const Home = () => {
              In today’s world, narratives shape power. A crisis can break a business. A single story can shift markets. In an era where 
              misinformation spreads faster than truth, controlling the narrative is not just an advantage—it’s a necessity.
            </p>
-           <a href="#" className="get-started-link">
+           <a href="/contact" className="get-started-link">
             <button>Get Started</button>
            </a>
         </div>
@@ -38,7 +38,7 @@ const Home = () => {
              law enforcement, and organizations navigate uncertainty, protect reputations, 
              and influence public perception.
             </p>
-            <a href="#" className="read-more-button">
+            <a href="/about" className="read-more-button">
               <button>Read More</button>
             </a>
          </div>
@@ -76,7 +76,7 @@ const Home = () => {
              law enforcement, and organizations navigate uncertainty, protect reputations, 
              and influence public perception.
             </p>
-            <a href="#" className="read-more-button">
+            <a href="/services" className="read-more-button">
               <button>Read More</button>
             </a>
          </div>
