@@ -77,7 +77,7 @@ const Navbar = () => {
                     </a>
                 </div>
                 <div className="nav-button">
-                    <a href="/contact">
+                    <a href="/contact" aria-label="Contact Us">
                         <button>Contact</button>
                     </a>
                 </div>
