@@ -67,7 +67,7 @@ export default function ContactForm() {
 
       <div className="content-wrapper">
         <h2 className="heading">Let's talk about your project</h2>
-        <p className="subheading">We help companies and individuals build out their brand guidelines.</p>
+        <p className="subheading">In a World of Uncertainty, Start with a Conversation</p>
         <div className="form-container">
           <form onSubmit={handleSubmit} className="form">
             <div className="form-grid">

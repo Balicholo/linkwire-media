@@ -536,7 +536,10 @@ nav{
     font-size: 30px;
   }
 }
-
+/* SERVICES PAGE */
+.services-page{
+  text-align: center;
+}
 /* INDUSTRIES WE SERVE SECTION */
 #industries-served-section{
   width: 100%;

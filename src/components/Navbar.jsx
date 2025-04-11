@@ -69,10 +69,10 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <div className="icons">
-                    <a href="#" aria-label="Phone">
+                    <a href="tel:+263785149049" aria-label="Phone">
                         <i className="ri-phone-line"></i>
                     </a>
-                    <a href="#" aria-label="Email">
+                    <a href="mailto:info@linkwire.co.zw" aria-label="Email">
                         <i className="ri-mail-line"></i>
                     </a>
                 </div>

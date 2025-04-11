@@ -30,7 +30,7 @@ const Footer = () => {
                        <div className='webpages'>
                         <h3><i class="ri-global-line"></i> Websites</h3>
                         <p>
-                            <a href="#">Technews.co.zw</a>, <a href="#">Dailypress.co.zw</a>.
+                            <a href="https://technews.co.zw/">Technews.co.zw</a>, <a href="https://dailypress.co.zw/">Dailypress.co.zw</a>.
                         </p>
                        </div>
                     </div>
@@ -46,7 +46,7 @@ const Footer = () => {
                        <div className='webpages'>
                         <h3><i className="ri-mail-line"></i> Email</h3>
                         <p>
-                            <a href="https://www.linkedin.com/company/linkwire/">info@linkwire.co.zw</a>
+                            <a href="mailto:info@linkwire.co.zw">info@linkwire.co.zw</a>
                         </p>
                        </div>
                     </div>
@@ -55,7 +55,7 @@ const Footer = () => {
                        <div className='webpages'>
                         <h3><i className="ri-phone-line"></i> Phone</h3>
                         <p>
-                            <a href="tel:++263 7** *** ***">+263 7** *** ***</a>
+                            <a href="tel:+263785149049">+263 785 149 049</a>, <a href="tel:+263719278026">+263 719 278 026</a>
                         </p>
                        </div>
                     </div>

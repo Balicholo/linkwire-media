@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css"; // Import the CSS file for styling
-import aboutImage from '../assets/about-image.png';
+import aboutImage from '../assets/about-page.png';
 
 const About = () => {
   return (
@@ -11,8 +11,7 @@ const About = () => {
         <div className="text-container">
           <h1 className="company-name">About Us</h1>
            <p className="subheadline">
-             In today’s world, narratives shape power. A crisis can break a business. A single story can shift markets. In an era where 
-             misinformation spreads faster than truth, controlling the narrative is not just an advantage—it’s a necessity.
+             Protecting Reputations, Shaping Perception, Leading with Insight
            </p>
         </div>
        </div>        

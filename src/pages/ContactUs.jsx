@@ -11,8 +11,7 @@ const ContactUs = () => {
         <div className="text-container">
           <h1 className="company-name">Contact Us</h1>
            <p className="subheadline">
-             In today’s world, narratives shape power. A crisis can break a business. A single story can shift markets. In an era where 
-             misinformation spreads faster than truth, controlling the narrative is not just an advantage—it’s a necessity.
+             Have a Crisis? A Question? A Mission? Contact Linkwire.
            </p>
         </div>
        </div>        
