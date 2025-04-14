@@ -17,108 +17,102 @@ const ThirdBlog = () => {
         <div className="blog--content-text">
           <div className="blog--line"></div>
           <p>
-          There's a dangerous misunderstanding that still lingers in leadership circles: that disinformation
-          is a PR issue. Something to be handled by the communications team with a quick press
-          release, a tweet, or if things get really bad—a press conference.
+           Let's call it what it is—your biggest threat may no longer be a data breach or a boardroom leak.
+           It's a false narrative that goes viral before your team even sees it coming.
           </p>
 
           <p>
-          But here's the truth: disinformation is no longer about spin. It's about strategy. And in 2024, it
-          has evolved into one of the most effective tools for destabilization and influence warfare.
+           The era of corporate espionage has evolved. The tactics are no longer locked in backdoor
+           meetings or shady handshakes. Today, they unfold online—on X, in WhatsApp groups, and
+           through carefully planted fake news campaigns.
           </p>
 
           <p>
-          At Linkwire, we work with institutions that are only just realizing this. They come to us when a
-          reputational crisis hits. A viral video. A deepfake. A fake press statement. A trending hashtag
-          they didn't start—but can't stop. And often, it's already too late to undo the damage.
-          </p>
-          <p>
-           So let's be clear:
-          </p>
-          <div className="blog--line"></div>
-
-          <p>
-           Disinformation is a national security threat. Here's why:
-          </p>
-          <p>
-           <strong>1. It weakens public trust in institutions</strong>
-          </p>
-          <p>
-          Once the public starts doubting official communication—government statements, law
-          enforcement briefings, even court decisions—the state loses its most critical asset: legitimacy.
-          </p>
-          <p>
-           <strong>2. It can be weaponized by foreign actors.</strong>
-          </p>
-          <p>
-          Disinformation is cheap, scalable, and deniable. Perfect for adversaries looking to disrupt
-          elections, polarize societies, or undermine governments—without ever setting foot on your soil.
-          </p>
-          <p>
-           <strong>3. It manipulates behavior during national crises.</strong>
-          </p>
-          <p>
-          Fake health alerts, counterfeit press briefings, or coordinated hoaxes during elections or
-          disasters can lead to chaos. We've seen it play out—from COVID-19 misinformation to false
-          narratives about currency changes or fuel shortages.
-          </p>
-          <p>
-           <strong>4. It targets leadership.</strong>
-          </p>
-          <p>
-          Senior officials, military commanders, and CEOs are now prime targets for deepfakes, synthetic
-          smear campaigns, and narrative hijacking. And it works—because emotion spreads faster than
-          facts.
+           Welcome to the age of weaponized misinformation, where a tweet can cause a stock dip, a fake
+           press release can spark shareholder panic, and a deepfake of your CEO can spiral into a
+           full-blown crisis.
           </p>
 
           <div className="blog--line"></div>
-          <p>So what should we be doing about it?</p>
+
           <p>
-          Disinformation isn't something you react to. It's something you prepare for.
+           Here's how it's happening:
           </p>
-          <p>
-          Here's how smart institutions are shifting:
-          </p>
+
           <ul>
-            <li>From communications teams to narrative defense teams</li>
-            <li>From slow statements to real-time monitoring dashboards</li>
-            <li>From crisis PR to strategic simulations and counter-disinfo protocols</li>
-          </ul>
-          <div className="blog--line"></div>
-          <p>
-           What Linkwire Brings to the Table
-          </p>
-          <p>
-           At Linkwire, we help governments and national security actors:
-          </p>
-          <ul>
-            <li>Detect disinformation campaigns before they go viral</li>
-            <li>Simulate attacks in controlled environments to expose weaknesses</li>
-            <li>Build digital counter-intelligence and narrative control teams</li>
-            <li>Train staff on information warfare and rapid response</li>
-            <li>Develop policy frameworks that treat disinformation like the threat it truly is</li>
+            <li>A competitor plants a fake “leaked document” about your financials.</li>
+            <li>A disgruntled ex-employee spreads manipulated screenshots implying internal corruption.</li>
+            <li>A coordinated bot campaign starts promoting negative hashtags about your brand</li>
+            <li>An AI-generated video falsely shows your executive making controversial remarks.</li>
           </ul>
           <p>
-          We've studied the playbooks. From NATO to the EU to U.S. Cyber Command—and now we're
-          building tools and systems for African contexts.
-          </p>
+          Sounds far-fetched? It's not. It's already happening globally—and the private sector is becoming
+          the softest target.
+          </p>          
+          <div className="blog--line"></div>
 
+          <p>
+           Why it's effective:
+          </p>
+          <p>
+           Disinformation doesn't need to be true. It just needs to be believable for long enough to create
+           doubt, stir fear, and damage confidence.
+          </p>
+          <p>
+           And when it comes to business, confidence is currency.
+          </p>
+          <p>
+           If your investors, customers, or regulators see something alarming—even for a few hours—the
+           consequences can be immediate:
+          </p>
+          <ul>
+            <li>Shareholder questions</li>
+            <li>Media pressure</li>
+            <li>Internal unrest</li>
+            <li>Loss of trust</li>
+          </ul>
+          <p>
+           You don't need a cyberattack to lose control. You just need a story.
+          </p>
           <div className="blog--line"></div>
           <p>
-           Final Word
+           This is where most companies get it wrong
           </p>
           <p>
-           You don't have to look far to see how narratives can collapse countries
+           They treat misinformation as a PR issue, not a strategic risk.
           </p>
           <p>
-           If you still think disinformation is just about trolls and Twitter noise, you’re already behind.
+           The problem? PR teams are trained to control messaging, not digital warfare. By the time they
+           draft a response, the narrative has taken off—and your side of the story sounds like damage
+           control.
+          </p>
+          <div className="blog--line"></div>
+          <p>
+           So what can you do?
           </p>
           <p>
-           Let's get ahead of the threat.
+           You build what we call a Narrative Defense Strategy—and that’s what we do at Linkwire.
           </p>
           <p>
-           Linkwire. Intelligence for the digital battlefield.
+           We help private sector clients:
           </p>
+           <ul>
+            <li>Set up real-time monitoring for emerging threats</li>
+            <li>Train executives on deepfake awareness and digital impersonation risks</li>
+            <li>Run red team simulations to test how your organization would respond to a coordinated campaign</li>
+            <li>Build pre-approved crisis messaging frameworks that respond fast, without needing to draft from scratch during chaos</li>
+            <li>Work closely with legal and security to align narrative risks with regulatory and operational impacts</li>
+           </ul>
+          <div className="blog--line"></div>
+          <p>Disinformation is the new espionage</p>
+          <p>It's stealthy. Cheap. Scalable. And difficult to trace.</p>
+          <p>But more importantly—it's preventable, if you take it seriously.</p>
+          <p>If your organization handles sensitive data, controls market narratives, or holds public trust—then you're already a target.</p>
+          <p>The only question is:</p>
+          <p>Do you have a system in place to defend your story when it's under attack?</p>
+          <p>Let's build it together.</p>
+          <p>Linkwire. Intelligence for the digital battlefield.</p>
+
           <div className="blog--line"></div>
         </div>
       </div>

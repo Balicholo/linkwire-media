@@ -31,7 +31,7 @@ const About = () => {
                  law enforcement, and organizations navigate uncertainty, protect reputations, 
                  and influence public perception.
                 </p>
-                <a href="#" className="read-more-button">
+                <a href="/services" className="read-more-button">
                   <button>Read More</button>
                 </a>
              </div>
@@ -69,7 +69,7 @@ const About = () => {
                  law enforcement, and organizations navigate uncertainty, protect reputations, 
                  and influence public perception.
                 </p>
-                <a href="#" className="read-more-button">
+                <a href="/services" className="read-more-button">
                   <button>Read More</button>
                 </a>
              </div>
