@@ -25,7 +25,7 @@ const posts = [
   {
     id: 1,
     title: "The New Battlefield: How Disinformation is Weaponized",
-    href: "#",
+    href: "/blog/second-blog",
     description:
       "You don't need missiles to collapse a country anymore. All it takes is a smartphone, a viral tweet, and a well-timed lie. Welcome to the new battlefield—one where the weapons are digital, and the targets are trust, truth, and stability.",
     imageUrl:
@@ -36,7 +36,7 @@ const posts = [
     author: {
       name: "Author",
       role: "Linkwire Media",
-      href: "#",
+      href: "/blog/second-blog",
       imageUrl:
         "https://i.ibb.co/JwBWNFqg/woman-records-conversation-audience.jpg",
     },
@@ -45,7 +45,7 @@ const posts = [
   {
     id: 1,
     title: "Why Disinfromation is the New Corporate Espionage",
-    href: "#",
+    href: "/blog/third-blog",
     description:
       "Let's call it what it is—your biggest threat may no longer be a data breach or a boardroom leak. It's a false narrative that goes viral before your team even sees it coming.",
     imageUrl:
@@ -56,7 +56,7 @@ const posts = [
     author: {
       name: "Author",
       role: "Linkwire Media",
-      href: "#",
+      href: "/blog/third-blog",
       imageUrl:
         "https://i.ibb.co/SDzD4rgp/front-view-formal-male-journalist.jpg",
     },
