@@ -5,14 +5,14 @@ const posts = [
   {
     id: 1,
     title: "Why Disinformation is a National Security Threat - Not Just a PR Problem",
-    href: "#",
+    href: "/blog/first-blog",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+      "There's a dangerous misunderstanding that still lingers in leadership circles: that disinformation is a PR issue. Something to be handled by the communications team with a quick press release, a tweet, or if things get really bad—a press conference.",
     imageUrl:
       "https://i.ibb.co/Vcbz8Ghc/empowered-businesswoman-sharing-goals-targets-enterprise-activity.jpg",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    category: { title: "Media", href: "/" },
+    category: { title: "Media", href: "/blog/first-blog" },
     author: {
       name: "Author",
       role: "Linkwire Media",
@@ -27,7 +27,7 @@ const posts = [
     title: "The New Battlefield: How Disinformation is Weaponized",
     href: "#",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+      "You don't need missiles to collapse a country anymore. All it takes is a smartphone, a viral tweet, and a well-timed lie. Welcome to the new battlefield—one where the weapons are digital, and the targets are trust, truth, and stability.",
     imageUrl:
       "https://i.ibb.co/JwBWNFqg/woman-records-conversation-audience.jpg",
     date: "Mar 16, 2020",
@@ -47,7 +47,7 @@ const posts = [
     title: "Why Disinfromation is the New Corporate Espionage",
     href: "#",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+      "Let's call it what it is—your biggest threat may no longer be a data breach or a boardroom leak. It's a false narrative that goes viral before your team even sees it coming.",
     imageUrl:
       "https://i.ibb.co/SDzD4rgp/front-view-formal-male-journalist.jpg",
     date: "Mar 16, 2020",
