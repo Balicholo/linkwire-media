@@ -29,7 +29,7 @@ const Services = () => {
                 <p className="description-text">
                  Your reputation is your most valuable asset — and we’re here to protect it. From crisis preparedness and real-time simulations to AI-driven narrative control and reputation rebuilding, we help you stay ahead of threats and recover with confidence. Our tailored deliverables include crisis playbooks, monitoring dashboards, and strategic response plans to ensure you're always ready
                 </p>
-                <a href="/blog" className="read-more-button">
+                <a href="/read-more" className="read-more-button">
                   <button>Read More</button>
                 </a>
              </div>

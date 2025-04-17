@@ -9,6 +9,7 @@ import Blog from './pages/Blog';
 import FirstBlog from './pages/blogs/FirstBlog';
 import SecondBlog from './pages/blogs/SecondBlog';
 import ThirdBlog from './pages/blogs/ThirdBlog';
+import ReadMore from './pages/ReadMore';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/blog/first-blog" element={<FirstBlog />} />
           <Route path="/blog/second-blog" element={<SecondBlog />} />
           <Route path="/blog/third-blog" element={<ThirdBlog />}></Route>
+          <Route path="/read-more" element={<ReadMore />}></Route>
           {/* Add more blog routes as needed */}
         </Routes>
       </main>
