@@ -19,6 +19,11 @@ const Blog = () => {
     </section>
      <section id="blog-section">
       <Blogs />
+      <div className="explore-blogs-btn">
+        <a href="https://blog-system-umber.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <button class="modern-button">Explore More Blogs</button>
+        </a>
+      </div>
      </section>
     </>
 
