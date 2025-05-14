@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -26,6 +26,7 @@ function App() {
           <Route path="/blog/second-blog" element={<SecondBlog />} />
           <Route path="/blog/third-blog" element={<ThirdBlog />}></Route>
           <Route path="/read-more" element={<ReadMore />}></Route>
+          <Route path="*" element={<Navigate to="/" />} />
           {/* Add more blog routes as needed */}
         </Routes>
       </main>
