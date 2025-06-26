@@ -47,7 +47,7 @@ const Home = () => {
            <img src={aboutImage} alt="About" className="about-image" />
          </div>
 
-         <div className="ratings-container">
+         {/* <div className="ratings-container">
           <div className="rates">
            <h1>20+</h1>
            <p>Years Of Experience</p>            
@@ -63,7 +63,7 @@ const Home = () => {
            <p>Dedication to Projects</p>            
           </div>
 
-         </div>
+         </div> */}
        </div>
 
          <div className="about-text2">
