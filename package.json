@@ -1,5 +1,6 @@
 {
   "name": "linkwire-website",
+  "homepage": "http://www.linkwiremedia.co.zw",
   "private": true,
   "version": "0.0.0",
   "type": "module",
